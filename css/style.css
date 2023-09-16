@@ -1,0 +1,44 @@
+.skyrim-header {
+  background-image: url();
+  width: 100%;
+  height: 10rem;
+}
+
+#left-header {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(247, 5, 5);
+}
+
+#icon-header {
+  width: 20%;
+  height: 100%;
+  background-color: rgb(36, 30, 30);
+}
+
+#right-header {
+  width: 40%;
+  height: 100%;
+  float: right;
+  background-color: rgb(247, 106, 5);
+}
+
+#back-skyrim {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  width: 100%;
+  height: 100rem;
+}
+
+.skyrim-footer {
+  background-color: rgb(46, 46, 46);
+  width: 100%;
+  height: 10rem;
+}
+
+p {
+  color: aqua;
+  background-color: white;
+}
