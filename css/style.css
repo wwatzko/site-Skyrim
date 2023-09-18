@@ -1,44 +1,88 @@
-.skyrim-header {
-  background-image: url();
-  width: 100%;
-  height: 10rem;
-}
-
-#left-header {
-  width: 40%;
-  height: 100%;
-  background-color: rgb(247, 5, 5);
-}
-
-#icon-header {
-  width: 20%;
-  height: 100%;
-  background-color: rgb(36, 30, 30);
-}
-
-#right-header {
-  width: 40%;
-  height: 100%;
-  float: right;
-  background-color: rgb(247, 106, 5);
-}
-
 #back-skyrim {
+  background-image: url("/background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: black;
-  width: 100%;
-  height: 100rem;
+  height: auto;
+}
+
+#carousel-my {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.map-image {
+  border: 1px;
+  border-style: solid;
+  border-radius: 2rem;
+  max-width: 50rem;
+}
+
+.text-para {
+  border-left: 2px;
+  border-right: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 1rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  background: rgb(25, 25, 25, 0.7);
+  padding: 1rem;
+  text-align: justify;
+}
+
+.text-right {
+  border-left: 2px;
+  border-right: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 1rem;
+  margin-left: 50rem;
+  margin-right: 5rem;
+  background: rgb(25, 25, 25, 0.7);
+  padding: 1rem;
+  text-align: justify;
+}
+
+.series-image {
+  text-align: center;
+}
+
+.classes-image {
+  text-align: center;
+  max-width: 25rem;
+  max-height: 25rem;
+}
+
+p {
+  color: white;
+  text-align: justify;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+hr {
+  color: white;
+}
+
+#text-footer {
+  padding-top: 1rem;
+  text-align: center;
 }
 
 .skyrim-footer {
   background-color: rgb(46, 46, 46);
-  width: 100%;
-  height: 10rem;
-}
-
-p {
-  color: aqua;
-  background-color: white;
+  height: 3rem;
 }
